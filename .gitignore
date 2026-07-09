@@ -1,0 +1,9 @@
+# local .terraform directory
+.terraform/*
+
+# tf state files
+*.tfstate
+*.tfstate.*
+
+# tf vars files may contain sensitive data, so don't include them in version control
+*.tfvars
